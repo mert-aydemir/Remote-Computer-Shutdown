@@ -188,9 +188,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Device.cs" />
-    <Compile Include="Models\Status.cs" />
-    <Compile Include="Models\Login.cs" />
     <Compile Include="panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +241,15 @@
       <ProductName>.NET Framework 3.5 SP1 </ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TCP Listener\TCP Listener.csproj">
+      <Project>{4da2b0e5-19f2-4e85-9cf3-ff47e873583b}</Project>
+      <Name>TCP Listener</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="uu_logo-_1_.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />

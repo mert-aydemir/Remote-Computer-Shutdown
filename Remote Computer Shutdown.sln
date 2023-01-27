@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Computer Shutdown", "Remote Computer Shutdown\Remote Computer Shutdown.csproj", "{DE019261-511C-4E41-A85A-039B4A6A03CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP Listener", "TCP Listener\TCP Listener.csproj", "{4DA2B0E5-19F2-4E85-9CF3-FF47E873583B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE019261-511C-4E41-A85A-039B4A6A03CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE019261-511C-4E41-A85A-039B4A6A03CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE019261-511C-4E41-A85A-039B4A6A03CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA2B0E5-19F2-4E85-9CF3-FF47E873583B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA2B0E5-19F2-4E85-9CF3-FF47E873583B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA2B0E5-19F2-4E85-9CF3-FF47E873583B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA2B0E5-19F2-4E85-9CF3-FF47E873583B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
